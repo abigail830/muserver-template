@@ -11,7 +11,7 @@ public class Hello {
     @Path("{name}")
     @Produces(MediaType.APPLICATION_JSON)
     public String get(@PathParam("name") String name) {
-        return "{ \"name\": \"orange\" }";
+        return "{ \"name:\" \""+name+"\" }";
 
     }
 }
